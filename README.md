@@ -2,6 +2,9 @@
 ---
 
 # PaperChain
+<h1 align="center">🧠</h1>
+
+<h1 align="center">PaperChain</h1>
 
 **PaperChain** is an AI-driven academic writing pipeline that helps generate structured papers from research ideas to fully formatted Word documents, with modular components that can be extended for different academic disciplines.
 
