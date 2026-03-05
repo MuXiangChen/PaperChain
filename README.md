@@ -3,7 +3,9 @@
 
 # 🧠 PaperChain
 
-### AI-driven academic writing pipeline for structured academic papers
+### AI Pipeline for Academic Writing
+
+Transform research ideas into structured papers and fully formatted documents.
 
 <br>
 
@@ -15,12 +17,13 @@
 <img src="https://img.shields.io/badge/GitHub-PaperChain-black?logo=github"/>
 </a>
 
-<img src="https://img.shields.io/github/stars/MuXiangChen/PaperChain"/>
+<img src="https://img.shields.io/github/stars/MuXiangChen/PaperChain?style=social"/>
 
 <img src="https://img.shields.io/badge/license-MIT-green"/>
 
 </div>
 
+---
 
 **PaperChain** is an AI-driven academic writing pipeline that helps generate structured papers from research ideas to fully formatted Word documents, with modular components that can be extended for different academic disciplines.
 
