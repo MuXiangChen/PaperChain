@@ -214,7 +214,6 @@ Each generated idea can be linked to sources such as:
 
 It supports both **data visualization** and **structural diagrams**, while automatically adapting figure layout for Word and LaTeX documents.
 
----
 
 ## Statistical & Data Charts
 
@@ -224,7 +223,6 @@ It supports both **data visualization** and **structural diagrams**, while autom
 | Box / Heatmap / Histogram | seaborn, matplotlib |
 | Radar                     | matplotlib          |
 
----
 
 ## Advanced Scientific Visualization
 
@@ -235,7 +233,6 @@ It supports both **data visualization** and **structural diagrams**, while autom
 | Density plots                 | seaborn              |
 | Cluster visualization         | sklearn + matplotlib |
 
----
 
 ## Architecture & Workflow Diagrams
 
@@ -245,7 +242,7 @@ It supports both **data visualization** and **structural diagrams**, while autom
 | Technical roadmap diagrams       | mermaid / graphviz    |
 | Knowledge graph visualization    | networkx + matplotlib |
 
----
+
 
 ## Layout & Styling Support
 
