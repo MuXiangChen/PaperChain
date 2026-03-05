@@ -9,7 +9,7 @@ Transform research ideas into structured papers and fully formatted documents.
 
 <br>
 
-<a href="https://paperchain.ai">
+<a href="https://www.witploy.cn/paperchain">
 <img src="https://img.shields.io/badge/🌐%20Website-PaperChain-blue"/>
 </a>
 
