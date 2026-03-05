@@ -3,7 +3,7 @@
 
 # 🧠 PaperChain
 
-AI-driven academic writing pipeline
+AI-driven academic writing pipeline for structured academic papers.
 
 </div>
 
