@@ -32,8 +32,78 @@ PaperChain treats **LLMs as interchangeable generators**. Different AI providers
 The system focuses on **structured academic writing**, ensuring that papers follow rigorous formatting, logical structure, and methodological conventions even when the research idea itself is exploratory.
 
 ---
+# Usage
 
-# Core Architecture
+## 🌐 Online
+You can use PaperChain directly through the hosted web application without installing anything locally.
+
+This version provides the full writing pipeline including:
+
+idea exploration and structuring
+
+guideline-driven academic writing
+
+evidence retrieval
+
+figure generation
+
+document export (Word / LaTeX)
+
+👉 Open the Web App
+
+https://paperchain.ai
+
+(Login may be required.)
+
+## 💻 Local Installation
+
+PaperChain can also be deployed locally for research, customization, or private usage.
+
+Prerequisites
+
+Node.js ≥ 18
+
+pnpm / npm
+
+API access to an LLM provider (or local models)
+
+Clone the repository
+git clone https://github.com/MuXiangChen/PaperChain.git
+cd PaperChain
+Install dependencies
+pnpm install
+
+or
+
+npm install
+Configure environment variables
+
+Create a .env file:
+
+cp .env.example .env
+
+Then configure your LLM provider:
+
+LLM_PROVIDER=openai
+OPENAI_API_KEY=your_key_here
+Start the application
+pnpm dev
+Output
+
+After generation, documents will be exported as:
+
+output/
+ ├ paper.docx
+ └ paper.tex
+
+---
+# Architecture 
+---
+# Project Structure
+---
+# Paper IR
+---
+# Core
 
 ## Canon Analyzer
 
