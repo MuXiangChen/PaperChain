@@ -1,10 +1,7 @@
 
 
-<div align="center">
-  <img src="figures/logo_light.png#gh-light-mode-only" width="60%" alt="SpatialLM" />
-  <img src="figures/logo_dark.png#gh-dark-mode-only" width="60%" alt="SpatialLM" />
-</div>
-<hr style="margin-top: 0; margin-bottom: 8px;">
+# 🧠 PaperChain
+
 <div align="center">
 
 <a href="https://paperchain.ai">
@@ -20,10 +17,6 @@
 <img src="https://img.shields.io/badge/license-MIT-green"/>
 
 </div>
-
-<div align="center">
-
-# 🧠 PaperChain
 
 AI-driven academic writing pipeline for structured academic papers.
 
