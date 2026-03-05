@@ -15,7 +15,7 @@
 <img src="https://img.shields.io/badge/GitHub-PaperChain-black?logo=github"/>
 </a>
 
-<img src="https://img.shields.io/github/stars/yourname/paperchain"/>
+<img src="https://img.shields.io/github/stars/MuXiangChen/PaperChain"/>
 
 <img src="https://img.shields.io/badge/license-MIT-green"/>
 
