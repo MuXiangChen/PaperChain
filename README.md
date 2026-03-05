@@ -92,9 +92,11 @@ Output
 
 After generation, documents will be exported as:
 
+```
 output/
  ├ paper.docx
  └ paper.tex
+```
 
 ---
 # Architecture 
