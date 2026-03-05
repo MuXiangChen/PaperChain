@@ -1,6 +1,6 @@
+<img width="898" height="652" alt="image" src="https://github.com/user-attachments/assets/c628262f-d3f5-4252-a840-627b46f716a3" />
 
-
-# 🧠 PaperChain
+#  PaperChain
 
 <div align="center">
 
