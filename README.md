@@ -5,24 +5,20 @@
   <img src="figures/logo_dark.png#gh-dark-mode-only" width="60%" alt="SpatialLM" />
 </div>
 <hr style="margin-top: 0; margin-bottom: 8px;">
-<div align="center" style="margin-top: 0; padding-top: 0; line-height: 1;">
-  <a href="https://paperchain.ai">
+<div align="center">
+
+<a href="https://paperchain.ai">
 <img src="https://img.shields.io/badge/🌐%20Website-PaperChain-blue"/>
 </a>
-    <a href="https://manycore-research.github.io/SpatialLM" target="_blank" style="margin: 2px;"><img alt="Project"
-    src="https://img.shields.io/badge/🌐%20Website-SpatialLM-ffc107?color=42a5f5&logoColor=white" style="display: inline-block; vertical-align: middle;"/></a>
-    <a href="https://arxiv.org/abs/2506.07491" target="_blank" style="margin: 2px;"><img alt="arXiv"
-    src="https://img.shields.io/badge/arXiv-Techreport-b31b1b?logo=arxiv&logoColor=white" style="display: inline-block; vertical-align: middle;"/></a>
-    <a href="https://github.com/manycore-research/SpatialLM" target="_blank" style="margin: 2px;"><img alt="GitHub"
-    src="https://img.shields.io/badge/GitHub-SpatialLM-24292e?logo=github&logoColor=white" style="display: inline-block; vertical-align: middle;"/></a>
-</div>
-<div align="center" style="line-height: 1;">
-    <a href="https://huggingface.co/manycore-research/SpatialLM1.1-Qwen-0.5B" target="_blank" style="margin: 2px;"><img alt="Hugging Face"
-    src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-SpatialLM-ffc107?color=ffc107&logoColor=white" style="display: inline-block; vertical-align: middle;"/></a>
-    <a href="https://huggingface.co/datasets/manycore-research/SpatialLM-Dataset" target="_blank" style="margin: 2px;"><img alt="Dataset"
-    src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Dataset-ffc107?color=ffc107&logoColor=white" style="display: inline-block; vertical-align: middle;"/></a>
-    <a href="https://huggingface.co/datasets/manycore-research/SpatialLM-Testset" target="_blank" style="margin: 2px;"><img alt="Dataset"
-    src="https://img.shields.io/badge/%F0%9F%A4%97%20Dataset-Testset-ffc107?color=ffc107&logoColor=white" style="display: inline-block; vertical-align: middle;"/></a>
+
+<a href="https://github.com/yourname/paperchain">
+<img src="https://img.shields.io/badge/GitHub-PaperChain-black?logo=github"/>
+</a>
+
+<img src="https://img.shields.io/github/stars/yourname/paperchain"/>
+
+<img src="https://img.shields.io/badge/license-MIT-green"/>
+
 </div>
 
 <div align="center">
