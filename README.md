@@ -35,68 +35,35 @@ The system focuses on **structured academic writing**, ensuring that papers foll
 # Usage
 
 ## 🌐 Online
-You can use PaperChain directly through the hosted web application without installing anything locally.
 
-This version provides the full writing pipeline including:
+You can use **PaperChain directly through the hosted web application** without installing anything locally.
 
-idea exploration and structuring
+The online version provides the full academic writing pipeline, including:
 
-guideline-driven academic writing
+- idea exploration and structuring  
+- guideline-driven academic writing  
+- evidence retrieval and citation support  
+- figure and diagram generation  
+- document export (Word / LaTeX)
 
-evidence retrieval
-
-figure generation
-
-document export (Word / LaTeX)
-
-👉 Open the Web App
+👉 Open the web app:
 
 https://paperchain.ai
 
-(Login may be required.)
+> Login may be required.
+---
 
 ## 💻 Local Installation
 
-PaperChain can also be deployed locally for research, customization, or private usage.
+PaperChain can also be deployed locally for research, customization, or private use.
 
-Prerequisites
+### Prerequisites
 
-Node.js ≥ 18
+Make sure the following tools are installed:
 
-pnpm / npm
-
-API access to an LLM provider (or local models)
-
-Clone the repository
-git clone https://github.com/MuXiangChen/PaperChain.git
-cd PaperChain
-Install dependencies
-pnpm install
-
-or
-
-npm install
-Configure environment variables
-
-Create a .env file:
-
-cp .env.example .env
-
-Then configure your LLM provider:
-
-LLM_PROVIDER=openai
-OPENAI_API_KEY=your_key_here
-Start the application
-pnpm dev
-Output
-
-After generation, documents will be exported as:
-
-```
-output/
- ├ paper.docx
- └ paper.tex
-```
+- **Node.js ≥ 18**
+- **pnpm** or **npm**
+- Access to an **LLM provider API** (or local models)
 
 ---
 # Architecture 
