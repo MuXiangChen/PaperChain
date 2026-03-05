@@ -1,8 +1,11 @@
-<img width="898" height="652" alt="image" src="https://github.com/user-attachments/assets/c628262f-d3f5-4252-a840-627b46f716a3" />
-
-#  PaperChain
 
 <div align="center">
+
+# 🧠 PaperChain
+
+### AI-driven academic writing pipeline for structured academic papers
+
+<br>
 
 <a href="https://paperchain.ai">
 <img src="https://img.shields.io/badge/🌐%20Website-PaperChain-blue"/>
@@ -15,10 +18,6 @@
 <img src="https://img.shields.io/github/stars/MuXiangChen/PaperChain"/>
 
 <img src="https://img.shields.io/badge/license-MIT-green"/>
-
-</div>
-
-AI-driven academic writing pipeline for structured academic papers.
 
 </div>
 
