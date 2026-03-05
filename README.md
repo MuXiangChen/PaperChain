@@ -11,7 +11,7 @@
 <img src="https://img.shields.io/badge/🌐%20Website-PaperChain-blue"/>
 </a>
 
-<a href="https://github.com/yourname/paperchain">
+<a href="https://github.com/MuXiangChen/PaperChain">
 <img src="https://img.shields.io/badge/GitHub-PaperChain-black?logo=github"/>
 </a>
 
