@@ -312,7 +312,7 @@ Supported formats include:
 * Word (.docx)
 * LaTeX (.tex)
 
----
+
 
 ## Word Renderer
 
@@ -333,7 +333,7 @@ Output:
 paper.docx
 ```
 
----
+
 
 ## LaTeX Renderer
 
