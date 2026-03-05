@@ -36,34 +36,11 @@ The system focuses on **structured academic writing**, ensuring that papers foll
 
 ## 🌐 Online
 
-You can use **PaperChain directly through the hosted web application** without installing anything locally.
-
-The online version provides the full academic writing pipeline, including:
-
-- idea exploration and structuring  
-- guideline-driven academic writing  
-- evidence retrieval and citation support  
-- figure and diagram generation  
-- document export (Word / LaTeX)
-
-👉 Open the web app:
-
-https://paperchain.ai
-
-> Login may be required.
----
+[🧠Paperchain](https://www.witploy.cn/)
 
 ## 💻 Local Installation
 
 PaperChain can also be deployed locally for research, customization, or private use.
-
-### Prerequisites
-
-Make sure the following tools are installed:
-
-- **Node.js ≥ 18**
-- **pnpm** or **npm**
-- Access to an **LLM provider API** (or local models)
 
 ---
 # Architecture 
