@@ -80,6 +80,7 @@ paperchain/
 │  └─ exporters.md            # Word / LaTeX 导出说明
 │
 ├─ .env.example               # 环境变量配置模板
+├─ requirements.txt           # 运行依赖和配置要求
 ├─ LICENSE
 └─ README.md
 

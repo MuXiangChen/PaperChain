@@ -1,5 +1,7 @@
 [English](README.md) | [简体中文](README_CN.md)
 
+# 英文文档未同步中文文档
+
 <div align="center">
 
 # 🧠 PaperChain
