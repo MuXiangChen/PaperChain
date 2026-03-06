@@ -100,6 +100,46 @@ PaperChain can also be deployed locally for research, customization, or private 
 ---
 # Core Architecture
 
+### Modules
+
+- [Standards System (Discipline Packs)](#standards-system-discipline-packs)
+- [Canon Analyzer](#canon-analyzer)
+- [IdeaGraph Engine](#ideagraph-engine)
+- [Idea Workspace & Evidence Builder](#idea-workspace--evidence-builder)
+- [Outline Weaving Engine](#outline-weaving-engine)
+- [Editing & Refinement Engine](#editing--refinement-engine)
+- [Assist Plugins](#assist-plugins)
+- [FigureLab](#figurelab)
+- [Export Renderers](#export-renderers)
+
+---
+
+## Standards System (Discipline Packs)
+
+The **Standards System** enables vertical expansion across different academic disciplines.
+
+Discipline Packs define writing standards for specific fields.
+
+### Provided Standards
+
+* paper-type outline templates
+  (survey, empirical, proposal, etc.)
+
+* section requirements and rhetorical patterns
+
+* academic retrieval sources and search strategies
+
+* rubric-based full-document review
+
+### Usage
+
+The system is used for:
+
+1. generating standardized writing plans
+2. validating final paper quality and compliance
+
+---
+
 ## Canon Analyzer
 
 The **Canon Analyzer** performs deep structural analysis on a small set of exemplar papers to extract writing patterns, structural elements, and methodological conventions.
@@ -185,6 +225,46 @@ structured research map
 * editable reasoning nodes (claims / questions / assumptions)
 * evidence requirements for retrieval and citation
 
+
+---
+
+## Idea Workspace & Evidence Builder
+
+The **Idea Workspace & Evidence Builder** converts user ideas into **traceable, citation-ready writing materials**.
+
+It connects idea generation with academic evidence retrieval.
+
+### Responsibilities
+
+**Idea Collection**
+
+Multi-turn interaction collects:
+
+* research question
+* thesis
+* scope
+* definitions
+* assumptions
+* methodological constraints
+
+**Academic Retrieval**
+
+* retrieve papers and academic sources
+* retrieval channels defined by Discipline Packs
+
+**Evidence Extraction**
+
+Each generated idea can be linked to sources such as:
+
+* academic papers
+* URLs
+* extracted evidence snippets
+
+### Output
+
+* evidence-backed writing workspace
+* citation-ready writing materials
+
 ---
 
 ## Outline Weaving Engine
@@ -256,42 +336,23 @@ Ensure that the paper structure and writing quality remain **academically rigoro
 
 ---
 
-## Idea Workspace & Evidence Builder
+## Assist Plugins
 
-The **Idea Workspace & Evidence Builder** converts user ideas into **traceable, citation-ready writing materials**.
+The **Assist Plugin System** allows additional tools to extend the writing pipeline without affecting the core architecture.
 
-It connects idea generation with academic evidence retrieval.
+Examples include:
 
-### Responsibilities
+* grammar checks
+* terminology consistency verification
+* citation lookup (DOI / metadata completion)
+* repetition and similarity detection
+* domain-specific utilities (formula helpers, dataset description templates)
 
-**Idea Collection**
+FigureLab can also expose its capabilities through the plugin system.
 
-Multi-turn interaction collects:
+### Goal
 
-* research question
-* thesis
-* scope
-* definitions
-* assumptions
-* methodological constraints
-
-**Academic Retrieval**
-
-* retrieve papers and academic sources
-* retrieval channels defined by Discipline Packs
-
-**Evidence Extraction**
-
-Each generated idea can be linked to sources such as:
-
-* academic papers
-* URLs
-* extracted evidence snippets
-
-### Output
-
-* evidence-backed writing workspace
-* citation-ready writing materials
+Keep the core pipeline stable while allowing extensibility through plugins.
 
 ---
 
@@ -342,52 +403,6 @@ Features include:
 * automatic figure numbering
 * consistent academic styling
 * adaptive size and layout suggestions
-
----
-
-## Assist Plugins
-
-The **Assist Plugin System** allows additional tools to extend the writing pipeline without affecting the core architecture.
-
-Examples include:
-
-* grammar checks
-* terminology consistency verification
-* citation lookup (DOI / metadata completion)
-* repetition and similarity detection
-* domain-specific utilities (formula helpers, dataset description templates)
-
-FigureLab can also expose its capabilities through the plugin system.
-
-### Goal
-
-Keep the core pipeline stable while allowing extensibility through plugins.
-
----
-
-## Standards System (Discipline Packs)
-
-The **Standards System** enables vertical expansion across different academic disciplines.
-
-Discipline Packs define writing standards for specific fields.
-
-### Provided Standards
-
-* paper-type outline templates
-  (survey, empirical, proposal, etc.)
-
-* section requirements and rhetorical patterns
-
-* academic retrieval sources and search strategies
-
-* rubric-based full-document review
-
-### Usage
-
-The system is used for:
-
-1. generating standardized writing plans
-2. validating final paper quality and compliance
 
 ---
 
