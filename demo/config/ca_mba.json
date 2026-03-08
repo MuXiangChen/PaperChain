@@ -1,0 +1,110 @@
+{
+  "source": "Canon Analyzer",
+  "description": "Refinement rules extracted from exemplar MBA thesis papers.",
+  "section_overrides": [
+    {
+      "section_id": "abstract",
+      "description": "摘要应同时覆盖研究背景、方法和主要发现，避免写成目录式总结。",
+      "guideline": {
+        "notes": [
+          "摘要要覆盖问题、方法、结论三部分。",
+          "摘要应避免过长，控制在简洁范围内。"
+        ],
+        "hard_constraints": [
+          {
+            "constraint_type": "max_sentences",
+            "description": "摘要最多 8 句。",
+            "value": 8,
+            "required": true
+          }
+        ],
+        "self_check_rules": [
+          {
+            "check_type": "coverage_check",
+            "description": "检查摘要是否覆盖背景、方法、结论。",
+            "criteria": "must_cover_background_method_conclusion",
+            "required": true
+          }
+        ]
+      }
+    },
+    {
+      "section_id": "2",
+      "description": "文献综述应先综述再评述，评述部分必须引出研究空白。",
+      "guideline": {
+        "notes": [
+          "国内外研究现状应体现分类、比较和总结。",
+          "研究评述必须明确指出不足与切入点。"
+        ],
+        "hard_constraints": [
+          {
+            "constraint_type": "min_citations",
+            "description": "本章至少包含 8 处引用。",
+            "value": 8,
+            "required": true
+          }
+        ],
+        "self_check_rules": [
+          {
+            "check_type": "logic_check",
+            "description": "检查本章是否遵循综述→评述的逻辑。",
+            "criteria": "review_then_commentary",
+            "required": true
+          }
+        ]
+      }
+    }
+  ],
+  "slot_overrides": [
+    {
+      "slot_id": "1_3",
+      "expected_content": "解释研究必要性，并明确理论意义、实践意义以及研究目标。",
+      "guideline": {
+        "notes": [
+          "研究动机不应只停留在选题兴趣层面，应体现管理实践或理论价值。"
+        ],
+        "hard_constraints": [
+          {
+            "constraint_type": "must_include",
+            "description": "必须体现研究目标。",
+            "value": "research_objective",
+            "required": true
+          }
+        ],
+        "self_check_rules": [
+          {
+            "check_type": "coverage_check",
+            "description": "检查研究动机与目标部分是否同时覆盖必要性和目标。",
+            "criteria": "must_cover_motivation_and_objective",
+            "required": true
+          }
+        ]
+      }
+    },
+    {
+      "slot_id": "2_3",
+      "expected_content": "总结国内外研究的主要不足，明确研究空白，并引出本文的研究定位与切入点。",
+      "guideline": {
+        "notes": [
+          "研究评述不能只是简单总结，必须形成研究切入点。"
+        ],
+        "hard_constraints": [
+          {
+            "constraint_type": "must_include",
+            "description": "必须明确指出研究空白。",
+            "value": "research_gap",
+            "required": true
+          }
+        ],
+        "self_check_rules": [
+          {
+            "check_type": "logic_check",
+            "description": "检查是否从已有研究自然过渡到本文研究定位。",
+            "criteria": "prior_work_to_research_gap",
+            "required": true
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,1 +1,4 @@
 research/
+# env
+.env
+.env.*

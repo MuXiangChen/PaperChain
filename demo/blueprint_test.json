@@ -1,0 +1,534 @@
+{
+  "blueprint_id": "bp_mba_001",
+  "name": "MBA Thesis Blueprint",
+  "paper_type": "MBA Thesis",
+  "discipline": "Business Administration",
+  "source": "Standards System",
+  "description": "Base blueprint defined by standards system for MBA thesis writing.",
+  "sections": [
+    {
+      "section_id": "abstract",
+      "title": "摘要",
+      "purpose": "概述研究问题、研究方法、核心结论和管理启示。",
+      "level": 1,
+      "description": "摘要应同时覆盖研究背景、方法和主要发现，避免写成目录式总结。",
+      "required": true,
+      "order": 1,
+      "slots": [
+        {
+          "slot_id": "abstract_1",
+          "name": "研究背景与问题",
+          "purpose": "简要交代研究背景并说明核心问题。",
+          "expected_content": "说明研究场景、问题来源以及研究对象。",
+          "material_types": [
+            "background",
+            "problem_statement"
+          ],
+          "points": [
+            {
+              "point_id": "abstract_1_p1",
+              "description": "概括{{topic}}所属的现实管理背景",
+              "purpose": "为摘要建立问题情境",
+              "expected_content": "用一句话说明研究场景或管理环境。",
+              "material_types": [
+                "background"
+              ],
+              "citations_required": false,
+              "rhetorical_style": null,
+              "order": 1,
+              "metadata": {}
+            },
+            {
+              "point_id": "abstract_1_p2",
+              "description": "指出{{topic}}中的核心管理问题",
+              "purpose": "明确摘要中的研究对象和问题",
+              "expected_content": "用一句话点明本文研究的核心问题。",
+              "material_types": [
+                "problem_statement"
+              ],
+              "citations_required": false,
+              "rhetorical_style": null,
+              "order": 2,
+              "metadata": {}
+            }
+          ],
+          "required": true,
+          "citations_required": false,
+          "min_items": 1,
+          "max_items": 3,
+          "paragraph_hint": "merged_paragraph",
+          "order": 1,
+          "metadata": {}
+        },
+        {
+          "slot_id": "abstract_2",
+          "name": "研究方法",
+          "purpose": "概述论文采用的研究方法或分析路径。",
+          "expected_content": "简要说明所使用的方法、框架或案例分析方式。",
+          "material_types": [
+            "method",
+            "method_detail"
+          ],
+          "points": [
+            {
+              "point_id": "abstract_2_p1",
+              "description": "说明本文研究{{topic}}所采用的主要方法",
+              "purpose": "交代研究路径",
+              "expected_content": "用一句话说明采用了案例研究、实证分析、问卷调查或模型分析等方法。",
+              "material_types": [
+                "method"
+              ],
+              "citations_required": false,
+              "rhetorical_style": null,
+              "order": 1,
+              "metadata": {}
+            },
+            {
+              "point_id": "abstract_2_p2",
+              "description": "简述方法如何用于回答研究问题",
+              "purpose": "增强方法与问题之间的关联",
+              "expected_content": "用一句话补充方法与研究目标之间的对应关系。",
+              "material_types": [
+                "method_detail"
+              ],
+              "citations_required": false,
+              "rhetorical_style": null,
+              "order": 2,
+              "metadata": {}
+            }
+          ],
+          "required": true,
+          "citations_required": false,
+          "min_items": 1,
+          "max_items": 2,
+          "paragraph_hint": "merged_paragraph",
+          "order": 2,
+          "metadata": {}
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "section_id": "1",
+      "title": "研究背景与问题提出",
+      "purpose": "建立研究背景，提出问题，说明研究动机与目标。",
+      "level": 1,
+      "description": "本章负责把读者带入研究情境，并明确本文要解决的问题。",
+      "required": true,
+      "order": 2,
+      "slots": [
+        {
+          "slot_id": "1_0",
+          "name": "引言",
+          "purpose": "起到引导作用，概括介绍研究主题和章节结构。",
+          "expected_content": "用一两段话引入{{topic}}，并概括本章内容安排。",
+          "material_types": [
+            "background",
+            "evidence",
+            "example"
+          ],
+          "points": [
+            {
+              "point_id": "1_0_p1",
+              "description": "交代{{topic}}所在行业或组织场景的总体背景",
+              "purpose": "建立研究情境",
+              "expected_content": "说明相关行业、企业或管理环境的总体特征。",
+              "material_types": [
+                "background"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 1,
+              "metadata": {}
+            },
+            {
+              "point_id": "1_0_p2",
+              "description": "指出与{{topic}}相关的现实管理挑战",
+              "purpose": "凸显问题的重要性",
+              "expected_content": "说明当前管理实践中存在的困难、矛盾或痛点。",
+              "material_types": [
+                "evidence"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 2,
+              "metadata": {}
+            },
+            {
+              "point_id": "1_0_p3",
+              "description": "举例说明该问题在企业或行业中的具体表现",
+              "purpose": "让背景更具体",
+              "expected_content": "补充一个典型现象、案例或数据性事实。",
+              "material_types": [
+                "example"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 3,
+              "metadata": {}
+            }
+          ],
+          "required": true,
+          "citations_required": true,
+          "min_items": 2,
+          "max_items": 6,
+          "paragraph_hint": "independent_paragraph",
+          "order": 1,
+          "metadata": {}
+        },
+        {
+          "slot_id": "1_1",
+          "name": "研究背景",
+          "purpose": "说明现实背景、行业背景或管理实践背景。",
+          "expected_content": "介绍研究所依托的现实问题、行业场景或管理挑战。",
+          "material_types": [
+            "background",
+            "evidence",
+            "example"
+          ],
+          "points": [
+            {
+              "point_id": "1_1_p1",
+              "description": "交代{{topic}}所在行业或组织场景的总体背景",
+              "purpose": "建立研究情境",
+              "expected_content": "说明相关行业、企业或管理环境的总体特征。",
+              "material_types": [
+                "background"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 1,
+              "metadata": {}
+            },
+            {
+              "point_id": "1_1_p2",
+              "description": "指出与{{topic}}相关的现实管理挑战",
+              "purpose": "凸显问题的重要性",
+              "expected_content": "说明当前管理实践中存在的困难、矛盾或痛点。",
+              "material_types": [
+                "evidence"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 2,
+              "metadata": {}
+            },
+            {
+              "point_id": "1_1_p3",
+              "description": "举例说明该问题在企业或行业中的具体表现",
+              "purpose": "让背景更具体",
+              "expected_content": "补充一个典型现象、案例或数据性事实。",
+              "material_types": [
+                "example"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 3,
+              "metadata": {}
+            }
+          ],
+          "required": true,
+          "citations_required": true,
+          "min_items": 2,
+          "max_items": 6,
+          "paragraph_hint": "independent_paragraph",
+          "order": 1,
+          "metadata": {}
+        },
+        {
+          "slot_id": "1_2",
+          "name": "研究问题",
+          "purpose": "明确提出本文研究的核心问题。",
+          "expected_content": "从背景中抽取并明确界定研究问题。",
+          "material_types": [
+            "problem_statement",
+            "definition"
+          ],
+          "points": [
+            {
+              "point_id": "1_2_p1",
+              "description": "从背景中提炼{{topic}}的核心研究问题",
+              "purpose": "完成从背景到问题的收束",
+              "expected_content": "明确提出本文要解决的中心问题。",
+              "material_types": [
+                "problem_statement"
+              ],
+              "citations_required": false,
+              "rhetorical_style": null,
+              "order": 1,
+              "metadata": {}
+            },
+            {
+              "point_id": "1_2_p2",
+              "description": "界定研究问题中的关键概念或边界",
+              "purpose": "避免问题表达过于模糊",
+              "expected_content": "说明研究对象、范围或关键术语定义。",
+              "material_types": [
+                "definition"
+              ],
+              "citations_required": false,
+              "rhetorical_style": null,
+              "order": 2,
+              "metadata": {}
+            }
+          ],
+          "required": true,
+          "citations_required": false,
+          "min_items": 1,
+          "max_items": 3,
+          "paragraph_hint": "independent_paragraph",
+          "order": 2,
+          "metadata": {}
+        },
+        {
+          "slot_id": "1_3",
+          "name": "研究动机与目标",
+          "purpose": "说明为什么值得研究以及论文目标是什么。",
+          "expected_content": "解释研究必要性，并明确理论意义、实践意义以及研究目标。",
+          "material_types": [
+            "motivation",
+            "objective"
+          ],
+          "points": [
+            {
+              "point_id": "1_3_p1",
+              "description": "说明研究{{topic}}的现实必要性",
+              "purpose": "回答为什么要研究",
+              "expected_content": "从管理实践、决策需求或组织绩效角度说明研究价值。",
+              "material_types": [
+                "motivation"
+              ],
+              "citations_required": false,
+              "rhetorical_style": null,
+              "order": 1,
+              "metadata": {}
+            },
+            {
+              "point_id": "1_3_p2",
+              "description": "说明研究{{topic}}的理论或方法意义",
+              "purpose": "提升学术层面的研究动机",
+              "expected_content": "说明研究可能补充的理论视角、方法路径或分析框架。",
+              "material_types": [
+                "motivation"
+              ],
+              "citations_required": false,
+              "rhetorical_style": null,
+              "order": 2,
+              "metadata": {}
+            },
+            {
+              "point_id": "1_3_p3",
+              "description": "明确本文围绕{{topic}}的研究目标",
+              "purpose": "给出本章收束",
+              "expected_content": "用一句或两句话明确论文希望达成的研究目标。",
+              "material_types": [
+                "objective"
+              ],
+              "citations_required": false,
+              "rhetorical_style": null,
+              "order": 3,
+              "metadata": {}
+            }
+          ],
+          "required": true,
+          "citations_required": false,
+          "min_items": 1,
+          "max_items": 4,
+          "paragraph_hint": "independent_paragraph",
+          "order": 3,
+          "metadata": {}
+        }
+      ],
+      "subsections": []
+    },
+    {
+      "section_id": "2",
+      "title": "国内外研究现状",
+      "purpose": "回顾现有研究，建立论文研究定位。",
+      "level": 1,
+      "description": "文献综述应先综述再评述，评述部分必须引出研究空白。",
+      "required": true,
+      "order": 3,
+      "slots": [
+        {
+          "slot_id": "2_1",
+          "name": "国外研究现状",
+          "purpose": "整理国外已有研究。",
+          "expected_content": "归纳国外研究方向、方法和主要结论。",
+          "material_types": [
+            "related_work",
+            "comparison",
+            "evidence"
+          ],
+          "points": [
+            {
+              "point_id": "2_1_p1",
+              "description": "梳理国外关于{{topic}}的主要研究主题",
+              "purpose": "建立国外研究的主题框架",
+              "expected_content": "归纳国外学者围绕该主题的几个核心研究方向。",
+              "material_types": [
+                "related_work"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 1,
+              "metadata": {}
+            },
+            {
+              "point_id": "2_1_p2",
+              "description": "总结国外研究常用的方法或分析路径",
+              "purpose": "体现研究方法特征",
+              "expected_content": "说明国外研究中常见的研究设计、模型或数据来源。",
+              "material_types": [
+                "comparison"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 2,
+              "metadata": {}
+            },
+            {
+              "point_id": "2_1_p3",
+              "description": "概括国外研究的重要结论或共识",
+              "purpose": "提炼已有成果",
+              "expected_content": "总结国外研究在关键变量关系、机制解释或管理含义上的主要结论。",
+              "material_types": [
+                "evidence"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 3,
+              "metadata": {}
+            }
+          ],
+          "required": true,
+          "citations_required": true,
+          "min_items": 3,
+          "max_items": 10,
+          "paragraph_hint": "multi_paragraph",
+          "order": 1,
+          "metadata": {}
+        },
+        {
+          "slot_id": "2_2",
+          "name": "国内研究现状",
+          "purpose": "整理国内已有研究。",
+          "expected_content": "归纳国内研究重点，并与国外研究进行对照。",
+          "material_types": [
+            "related_work",
+            "comparison",
+            "evidence"
+          ],
+          "points": [
+            {
+              "point_id": "2_2_p1",
+              "description": "梳理国内关于{{topic}}的主要研究方向",
+              "purpose": "呈现国内研究整体面貌",
+              "expected_content": "归纳国内研究主要关注的问题、对象或视角。",
+              "material_types": [
+                "related_work"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 1,
+              "metadata": {}
+            },
+            {
+              "point_id": "2_2_p2",
+              "description": "总结国内研究采用的典型方法与材料",
+              "purpose": "概括国内研究方法特征",
+              "expected_content": "说明国内研究常采用的案例、问卷、实证或规范分析路径。",
+              "material_types": [
+                "comparison"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 2,
+              "metadata": {}
+            },
+            {
+              "point_id": "2_2_p3",
+              "description": "比较国内研究与国外研究在关注点上的差异",
+              "purpose": "建立后续评述基础",
+              "expected_content": "从研究主题、方法或结论层面指出国内外差异。",
+              "material_types": [
+                "evidence"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 3,
+              "metadata": {}
+            }
+          ],
+          "required": true,
+          "citations_required": true,
+          "min_items": 3,
+          "max_items": 10,
+          "paragraph_hint": "multi_paragraph",
+          "order": 2,
+          "metadata": {}
+        },
+        {
+          "slot_id": "2_3",
+          "name": "研究评述",
+          "purpose": "总结现有研究的不足，并引出本文研究切入点。",
+          "expected_content": "总结国内外研究的主要不足，明确研究空白，并引出本文的研究定位与切入点。",
+          "material_types": [
+            "analysis",
+            "discussion",
+            "problem_statement"
+          ],
+          "points": [
+            {
+              "point_id": "2_3_p1",
+              "description": "总结现有研究在{{topic}}上的主要成果",
+              "purpose": "先肯定已有文献贡献",
+              "expected_content": "概括现有研究已经回答了哪些重要问题。",
+              "material_types": [
+                "analysis"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 1,
+              "metadata": {}
+            },
+            {
+              "point_id": "2_3_p2",
+              "description": "指出现有研究的不足或局限",
+              "purpose": "形成研究空白",
+              "expected_content": "指出在研究对象、方法、情境或解释力上的不足。",
+              "material_types": [
+                "discussion"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 2,
+              "metadata": {}
+            },
+            {
+              "point_id": "2_3_p3",
+              "description": "引出本文围绕{{topic}}的研究切入点",
+              "purpose": "完成文献综述到本文的过渡",
+              "expected_content": "明确本文将从什么角度补充现有研究。",
+              "material_types": [
+                "problem_statement"
+              ],
+              "citations_required": true,
+              "rhetorical_style": null,
+              "order": 3,
+              "metadata": {}
+            }
+          ],
+          "required": true,
+          "citations_required": true,
+          "min_items": 1,
+          "max_items": 4,
+          "paragraph_hint": "independent_paragraph",
+          "order": 3,
+          "metadata": {}
+        }
+      ],
+      "subsections": []
+    }
+  ]
+}
